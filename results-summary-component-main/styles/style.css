@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal; /* Use 'normal' for regular weight */
+    font-style: normal;  /* Specify that this is the .normal style */
+}
+body {
+  font-family: 'Haken Grotesk';
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+.top {
+  justify-content: center;
+  background: hsl(241, 81%, 54%);
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+}
+.76 {
+  font-weight: 500;
+  font-size: 2500px;
+  color: hsl(0, 0%, 100%);
+}
+.top2 {
+  font-family: 'Haken Grotesk';
+  font-weight: 500;
+  padding: 20px;
+  font-size: 18px;
+  display: grid;
+}
+.circle {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  background: hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0);
+  border-radius: 45px;
+}
+.light-lavender {
+  color: hsl(241, 100%, 89%);
+}
+.white {
+  color: hsl(224, 30%, 27%);
+}
+.left-number {
+  color: hsl(224, 30%, 27%);
+}
+.right-number {
+  color: hsl(221, 100%, 96%);
+}
+
+#reaction {
+  background: hsla(0, 100%, 67%, 0.2); /* 50% transparent */
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.reaction {
+  color: hsl(0, 100%, 67%)
+}
+#memory {
+  background: hsla(39, 100%, 56%, 0.2); /* 50% transparent */
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+.memory {
+  color: hsl(39, 100%, 56%);
+}
+#verbal {
+  background: hsla(166, 100%, 37%, 0.2); /* 50% transparent */
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 2px;
+}
+.verbal {
+  color: hsl(166, 100%, 37%);
+}
+#visual {
+  background: hsla(234, 85%, 45%, 0.2); /* 50% transparent */
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 2px;
+}
+.visual {
+  color: hsl(234, 85%, 45%);
+}
+/* img {
+/* } */
+#button {
+  font-family: 'Haken Grotesk';
+  font-weight: 500;
+  background: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  border-style: none;
+  width: 300px;
+  height: 50px;
+  padding: 2px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#button:hover {
+  background: hsl(241, 81%, 54%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
