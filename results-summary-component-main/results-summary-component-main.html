@@ -2,93 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="stylesheet" href="/styles/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png" />
   <title>Frontend Mentor | Results summary component</title>
-
 </head>
 <body>
-<div class="top" >
-  <h3 class="light-lavender">Your Result</h3>
-  <div class="circle">
-     <p class="76">
-       76
-     </p>
-   <br />
-   <p class="light-lavender">
-    of 100
-   </p>
-  </div>
-     
-  <h3 class="white" >Great</h3>
-  <p class="light-lavender" >
-    You scored higher than 65% of the people who have taken these tests.
-  </p>
-  </div>
-  
-  <div class="top2">
-  <h3>Summary</h3>
+  <div id="container" >
+    <header id="top" >
+      <h3 class="your-results" >
+        Your Result
+      </h3>
+      <div class="circle" >
+        <ul>
+          <li class="seventy-six" >
+            76
+          </li>
+          <li class="one-hundred" >
+            of 100
+          </li>
+        </ul>
+      </div>
+      <h3 class="great" >
+        Great
+      </h3>
+      <p class="result-note" >
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </header>
 
-  <div id="reaction">
-    <img src="/assets/images/icon-reaction.svg" >
-    <span class="reaction">
-      Reaction
-    </span>
-    <span class="left-number">
-      80
-    </span>
-    <span class="right-number">
-      / 100
-    </span>
+    <main id="top2" >
+      <h3 class="summary" >
+        Summary
+      </h3>
+      <ul>
+        <li id="reaction-box" class="box" >
+          <img src="/assets/images/icon-reaction.svg" alt="Reaction Icon" />
+          <span class="reaction-word" >
+            Reaction
+          </span>
+          <span id="box-left-number" class="box-reaction-left" >
+            80
+          </span>
+          <span class="box-right-number" >
+            / 100
+          </span>
+        </li>
+        
+        <li id="memory-box" class="box" >
+          <img src="/assets/images/icon-memory.svg" alt="Memory Icon" />
+          <span class="memory-word" >
+            Memory
+          </span>
+          <span id="box-left-number" class="box-memory-left" >
+            92
+          </span>
+          <span class="box-right-number" >
+            / 100
+          </span>
+        </li>
+        
+        <li id="verbal-box" class="box" >
+          <img src="/assets/images/icon-verbal.svg" alt="Verbal Icon" />
+          <span class="verbal-word" >
+            Verbal
+          </span>
+          <span id="box-left-number" class="box-verbal-left" >
+            61
+          </span>
+          <span class="box-right-number" >
+            / 100
+          </span>
+        </li>
+        
+        <li id="visual-box" class="box" >
+          <img src="/assets/images/icon-visual.svg" alt="Visual Icon" />
+          <span class="visual-word" >
+            Visual
+          </span>
+          <span id="box-left-number" class="box-visual-left" >
+            73
+          </span>
+          <span class="box-right-number" >
+            / 100
+          </span>
+        </li>
+      </ul>
+      
+      <input type="submit" id="button" value="Continue" />
+    </main>
   </div>
 
-  <p id="memory" >
-    <img src="/assets/images/icon-memory.svg" >
-    <span class="memory">
-      Memory
-    </span>
-    <span class="left-number">
-      92
-    </span>
-    <span class="right-number">
-      / 100
-    </span>
-  </p>
-  <p id="verbal" >
-    <img src="./assets/images/icon-verbal.svg" >
-    <span class="verbal">
-      Verbal
-    </span>
-    <span class="left-number">
-      61
-    </span>
-    <span class="right-number">
-      / 100
-    </span>
-  </p>
-
-  <p id="visual" >
-    <img src="./assets/images/icon-visual.svg" >
-    <span class="visual">
-      Visual
-    </span>
-  <span class="left-number">
-      73
-  </span>
-  <span class="right-number">
-      / 100
-    </span>
-  </p>
-
-  <input type="submit" id="button" value="Continue" />
-  </div>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Ack-Mawé</a>.
-  </div>
+  <footer id="attribution" >
+    <p>
+      <span class="foot" >
+        Challenge by
+      </span>
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" >
+        Frontend Mentor
+      </a>.
+      <span class="foot" >
+        Coded by
+      </span>
+      <a href="https://www.frontendmentor.io/profile/ackmawe" target="_blank" >
+        Ack-Maw&#xe9; &#x1F425;
+      </a>.
+    </p>
+  </footer>
 </body>
 </html>
