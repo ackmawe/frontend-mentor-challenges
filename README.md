@@ -10,8 +10,8 @@ Frontend Mentor is a platform that provides real-world front-end projects for de
 
 Here is a list of the challenges I have completed:
 
-- [Challenge 1](https://lele-sf.github.io/frontendMentor/qr-code/): QR code component
-- [Challenge 2](https://lele-sf.github.io/frontendMentor/results-summary/): Results summary component
+- [Challenge 1](): Results summary component
+- [Challenge 2](): Bento grid
 
 ## Acknowledgments
 
@@ -19,4 +19,4 @@ Thanks to [Frontend Mentor](https://www.frontendmentor.io/) for providing these 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+

@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --Purple-one-hundred: hsl(254, 88%, 90%);
+  --Purple-five-hundred: hsl(256, 67%, 59%);
+  
+  --Yellow-one-hundred: hsl(31, 66%, 93%);
+  --Yellow-five-hundred: hsl(39, 100%, 71%);
+  
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 7%);
+}
+@font-face {
+  font-family: 'HankenGrotesk';
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+body {
+  margin: 0;
+  padding: 15px;
+}
+#all {
+  display: grid;
+  height: auto;
+  background: green;
+}
+img {
+  width: 100px;
+}
+#one {
+  background: var(--Purple-five-hundred);
+  display: grid;
+  justify-items: center;
+  margin-bottom: 11px;
+  text-align: center;
+  height: 13em;
+  margin-top: 5px;
+  color: var(--Yellow-one-hundred);
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px;
+}
+.one {
+  color: var(--White);
+  font-size: 40px;
+  width: 250px;
+}
+.ten-x {
+  color: var(--Yellow-five-hundred);
+  font-size: 40px;
+}
+.img-one {
+  width: 180px;
+  height: auto;
+}
+#two {
+  display: grid;
+  background: var(--White);
+  justify-items: center;
+  margin-bottom: 11px;
+  height: 130px;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 25px;
+}
+.img-two {
+  width: 300px;
+  height: auto;
+}
+#three {
+  display: grid;
+  background: var(--Yellow-five-hundred);
+  justify-items: left;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.img-three {
+  width: 250px;
+  height: auto;
+}
+#four {
+  display: grid;
+  background: var(--Purple-one-hundred);
+  justify-items: center;
+  height: 400px;
+}
+.img-four {
+  width: 300px;
+  height: auto;
+}
+.five {
+  display: grid;
+  background: var(--Purple-five-hundred);
+  justify-items: center;
+}
+.six {
+  display: grid;
+  background: var(--White);
+  justify-items: center;
+}
+.seven {
+  display: grid;
+  background: var(--Yellow-one-hundred);
+  justify-items: center;
+}
+.eight {
+  display: grid;
+  background: var(--Yellow-five-hundred);
+  justify-items: center;
+  
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
