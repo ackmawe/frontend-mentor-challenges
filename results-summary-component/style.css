@@ -33,7 +33,7 @@
   font-family: 'HankenGrotesk';
   font-display: swap;
   font-weight: 100 900;
-  src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+  src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
 }
 body {
   font-size: 18px;
@@ -110,6 +110,7 @@ body {
   text-align: center;
   line-height: 19px;
 }
+
 #top2 {
   display: grid;
   margin: 0;
@@ -223,11 +224,10 @@ img {
 }
 
 /* Width for desktop devices */
-
 @media (min-width: 768px) {
 body {
   justify-items: center;
-  display: grid;
+  display: flex;
 }
 #container {
   display: flex;

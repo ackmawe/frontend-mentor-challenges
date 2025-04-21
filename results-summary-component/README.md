@@ -6,7 +6,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -28,22 +28,18 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 - **Bonus**: Use the local JSON data to dynamically populate the content
 
-### Screenshot
+### Screenshots
 
+#### Mobile View
+![](assets/screenshots/Screenshot_20250130-145947.jpg?raw=true)
+
+#### Desktop View
 ![](assets/screenshots/Screenshot-20250130-150028.jpg?raw=true)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Results Summary Component](https://frontend-mentor-mawe.vercel.app/results-summary-component/)
 
 ## My process
 
@@ -54,11 +50,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -99,11 +90,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- GitHub - [Ack-Mawé](https://www.github.com/ackmawe)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Social Links - (https://mawe-links.vercel.app)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- GitHub - [Ack-Mawé 🐥](https://www.github.com/ackmawe)
+- Frontend Mentor - [@ackmawe](https://www.frontendmentor.io/profile/ackmawe)
+- Social Links - [Mawe-Links](https://mawe-links.vercel.app)
 
 ## Acknowledgments
 
