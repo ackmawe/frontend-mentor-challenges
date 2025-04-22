@@ -8,10 +8,7 @@ Frontend Mentor is a platform that provides real-world front-end projects for de
 
 ## Challenges
 
-Here is a list of the challenges I have completed:
-
-- [Challenge 1](): Results summary component
-- [Challenge 2](): Bento grid
+Here is a list of the challenges I have completed by [tapping on this link](https://frontend-mentor-mawe.vercel.app/).
 
 ## Acknowledgments
 
