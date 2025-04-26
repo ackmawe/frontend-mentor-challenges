@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Green-lighter: hsl(148, 38%, 91%);
+  --Green-medium: hsl(169, 82%, 27%);
+  --Red: hsl(0, 66%, 54%);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Grey-medium: hsl(186, 15%, 59%);
+  --Grey-darker: hsl(187, 24%, 22%);
+}
+
+.all {
+  color: var(--Red);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
