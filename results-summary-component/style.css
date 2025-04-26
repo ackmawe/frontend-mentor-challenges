@@ -227,7 +227,7 @@ img {
 @media (min-width: 768px) {
 body {
   justify-items: center;
-  display: flex;
+  display: grid;
 }
 #container {
   display: flex;

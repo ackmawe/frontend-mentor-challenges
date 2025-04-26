@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 :root {
   --Purple-one-hundred: hsl(254, 88%, 90%);
@@ -19,24 +20,28 @@
   src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
 }
 body {
-  margin: 0;
   padding: 15px;
 }
 #all {
   display: grid;
   height: auto;
-  background: green;
+  width: 100%;
 }
 img {
   width: 100px;
 }
 #one {
+  font-family: "HankenGrotesk";
+  font-weight: 400;
   background: var(--Purple-five-hundred);
   display: grid;
   justify-items: center;
   margin-bottom: 11px;
   text-align: center;
-  height: 13em;
+  width: 100%;
+  padding: 150px;
+  height: 1em;
+  border-radius: 5px;
   margin-top: 5px;
   color: var(--Yellow-one-hundred);
   font-size: 18px;
@@ -52,7 +57,10 @@ img {
   color: var(--Yellow-five-hundred);
   font-size: 40px;
 }
-.img-one {
+.faster-italic {
+  
+}
+.img-stars {
   width: 180px;
   height: auto;
 }
